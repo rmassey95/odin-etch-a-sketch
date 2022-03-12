@@ -1,0 +1,26 @@
+#container {
+  width: 960px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+#btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+#clr-grid {
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  margin: 15px;
+  background-color: rgb(15, 134, 11);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
