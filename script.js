@@ -14,12 +14,11 @@ function createSquares(numOfSquares){
   
     for (n=0;n<numOfSquares;n++){
       const box = document.createElement('div');
-      const dimension = 960/numOfSquares;
+      const dimension = 800/numOfSquares;
       box.classList.add('box');
       box.style.width = `${dimension}px`;
       box.style.height = `${dimension}px`;
       box.style.backgroundColor = 'black';
-      box.style.border = 'solid 1px red';
   
       row.appendChild(box);
     }
